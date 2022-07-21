@@ -11,6 +11,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="shortcut icon" href="/assets/img/IMG_20220410_161143203_MF_PORTRAIT.png" type="image/x-icon">
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -22,10 +23,13 @@
 
     <nav>
       <h1><span>P</span>ortfolio</h1>
-      <div class="menu">
+      <div class="menu" id="mmenu">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <img onclick="hamBurger()" src="/assets/img/Icon feather-menu.png" id="icon" alt="" />
       </div>
     </nav>
     <main>
@@ -219,6 +223,6 @@
       <p>Nathalia Portfolio - © 2022 All Rights Reserved</p>
     </footer>
 
-    <script src="" async defer></script>
+    <script src="/scripts.js" async defer></script>
   </body>
 </html>

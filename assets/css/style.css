@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* margin-top: 1.5vw; */
+    align-items: center;
 }
 
 nav .menu {
@@ -36,6 +36,10 @@ nav a {
 
 nav .menu a:hover {
     border-bottom: 1px solid var(--buttonColor);
+}
+
+nav img {
+    display: none;
 }
 
 nav h1 span {
@@ -214,7 +218,7 @@ footer img {
         flex-direction: column-reverse;
     }
     nav .menu {
-        width: 70%;
+        width: 45%;
     }
     main .left span {
         inline-size: 100%;
@@ -229,4 +233,14 @@ footer img {
     section .container .description {
         width: 100%;
     }
+    main .left .social-button {
+        width: 45%;
+    }
+    nav .menu  {
+        display: none;
+    }
+    nav img {
+        display: block;
+    }
 }
+
